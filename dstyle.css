@@ -1,0 +1,40 @@
+.lspace{padding-top:16px;
+        padding-left:16px}
+h1{font-family:verdana}
+.border{border-style:solid;
+        border-width:2px;
+        border-radius:10px;
+        border-color:#add8e6;
+        margin-right:660px;
+        padding-right:16px;
+        background-color:white;
+        color:red;
+        display:flex;}
+.pfont{font-family:Cursive;
+  padding-left:16px;}
+.button{background-color:#ffd700;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:10px;
+		margin-left:20px;}
+body{background-image:url("C:\\Users\\ashok\\OneDrive\\Desktop\\ECommerce\\delivery.png");
+     background-repeat:no-repeat;
+     background-attachment:fixed;
+     background-position:right center;
+     background-size:700px 500px;}
+a:link{color:rgb(200,100,20);
+       text-decoration:none;}
+.rbox{border:solid;
+      padding-left:16px;
+      padding-right:16px;
+      padding-bottom:16px;
+      border-width:1px;
+      margin-right:1060px;
+      border-radius:10px 0px}
+a:hover{text-decoration:underline}
