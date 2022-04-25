@@ -26,9 +26,9 @@ main{
 </head>
 <body>
     <form action=" # ">  
-           <header> <h1>Payment Form</h1></header> 
+           <header> <h1>Delivery</h1></header> 
            
-            <main> <h2>Contact Information</h2>
+            <main> <h2>Delivery Details</h2>
             <p> 
                 Name:       <input type="text" name="name" placeholder="Enter your Name"  required>
             </p>
@@ -47,7 +47,14 @@ main{
             <p>Mobile No.<b>:</b>  <input type="number" name="Mobile No." id="110"></p>
             <p>Pincode:     <input type="number" name="pincode" id="105"></p> 
 
-            <h2>Payment Information</h2>
+            <h2>Payment Details</h2>  
+            Cash On Delivery <input type="radio" name="choose Payment" id="111" value="cash on delivery"> 
+             Online Payment <input type="radio" name="choose Payment" id="112" value="Online Payment"> 
+
+             
+             
+           
+             
             <p>Card type:
                 <select name="card_type" id="106">
                     <option value="">----Select a Card Type---</option>
@@ -57,12 +64,16 @@ main{
             </p>
             <p>
                 Card Number <input type="number" name="card_number" id="107">
+               
             </p>
             <p> 
                 Expiration Date: <input type="date" name="exp_date" id="108">
             </p>
-            <P>CVV <input type="password" name="cvv" id="109"></P> 
-            <input type="submit" value="Pay Now">
+            <P>CVV <input type="password" name="cvv" id="109"></P>  
+           
+            <input type="submit" value=" submit">  
+             
+            
             
         </main>
             
