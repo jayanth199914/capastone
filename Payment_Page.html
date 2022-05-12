@@ -20,13 +20,20 @@ header {
 main{
     background-color: beige ;
 }
- 
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
 
      </style>
 </head>
 <body>
     <form action=" # ">  
-           <header> <h1>Delivery</h1></header> 
+           <header> <h1>Delivery & Payment Details</h1></header> 
            
             <main> <h2>Delivery Details</h2>
             <p> 
@@ -43,7 +50,7 @@ main{
             </fieldset>
              
             <p>Address:     <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
-            <p>Email:       <input type="email" name="email" id="104"></p>
+            <p>Email:       <input type="email" name="email" id="104" required></p>
             <p>Mobile No.<b>:</b>  <input type="number" name="Mobile No." id="110"></p>
             <p>Pincode:     <input type="number" name="pincode" id="105"></p> 
 
@@ -71,7 +78,7 @@ main{
             </p>
             <P>CVV <input type="password" name="cvv" id="109"></P>  
            
-            <input type="submit" value=" submit">  
+            <input type="submit" value="Pay Now">  
              
             
             
