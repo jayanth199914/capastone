@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="coupan-card">
+            <img src="polo.jpg" class="logo">
+            <h3>30% flat off <br> HDFC and SBI Credit cards</h3>
+            <br>
+            <div class="coupan-row">
+                <span id="cpnCode">HARRY123</span>
+                <span id="cpnBtn">COPY CODE</span>
+            </div>
+            <br>
+            <p>Valid Till:30 May,2022</p>
+
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+
+<script>
+    var cpnBtn=document.getElementById("cpnBtn");
+    var cpnCode=document.getElementById("cpnCode");
+    cpnBtn.onclick=function(){
+        navigator.clipboard.writeText(cpnCode.innerHTML);
+    }
+</script>
+</body>
+</html>
