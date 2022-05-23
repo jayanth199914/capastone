@@ -1,123 +1,26 @@
+
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Responsive Registaration Form</title>
-        <link rel="stylesheet" href="./responsiveRegistration.css">
-<style>
-body {
-background-image: url("paper.gif");
-background-color: lightgreen;
-}
-</style>    
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
-     <center>  
-    <body>
-           
-        <div class="container">
-       <h1>Registaration Form</h1> 
-            <div class="row">
-                <div class="col-10">
-                    <label for="fname">First Name:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="lname">Last Name:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
-                </div>
-            </div>
-<div class="row">
-                <div class="col-10">
-                    <label for="password">Password:</label>
-                </div>
-                <div class="col-90">
-                    <input type="password" id="password" name="password" maxlength="8">
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-10">
-                    <label for="Confirm password">Confirm Password:</label>
-                </div>
-                <div class="col-90">
-                    <input type="password" id="password" name="confirm password" maxlength="8">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="email">Email:</label>
-                </div>
-                <div class="col-90">
-                    <input type="email" id="email" name="email" placeholder="it should contain @,.">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="mobile">Mobile:</label>
-                </div>
-                <div class="col-90">
-                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="gender" required>Gender:</label>
-                </div>
-                <div class="col-90">
-                    <input type="radio" id="male" name="gender" value="male"/>Male
-                    <input type="radio" id="female" name="gender" value="female"/>Female
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="dob">Date Of Birth:</label>
-                </div>
-                <div class="col-90">
-                    <input type="Date" id="dob" name="dob">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="address">Address:</label>
-                </div>
-                <div class="col-90">
-                    <textarea name="address" id="address" cols="20" rows="5"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="city">City:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="city" name="city" maxlength="10">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="pincode">Area PIN:</label>
-                </div>
-                <div class="col-90">
-                    <input type="number" id="pin" name="pin" maxlength="6">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="state">State:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="state" name="state">
-                </div>
-            </div>
-             <br>
-            <div class="row">
-                <input type="submit" value="Registered" onclick="SaveStudentDetails()">
-            </div>  
-        </div> 
-    </body>
+<center>
+<body>
+<br><br><br><br><br><br><br><br><br>
+<form action="loginRegister" metod="post">
+<table style="background-color: lightgreen; margin-left :20px ; margin-left: 20px;">
+<tr>
+<th colspan="2"><h3 style="color: red;">Registration</h3></th>
+<td></td>
+</tr>
+<tr><td> UserName: </td><td><input type="text" name="username"></td></tr>
+<tr><td> Password: </td><td><input type="password" name="password1"></td></tr>
+<tr><td> Email: </td><td><input type="Email" name="Email"></td></tr>
+<tr><td></td><td><input type="submit" name="submit" value ="register"></td></tr>
+</table>
+</form>
+
+</body>
 </center>
 </html>
