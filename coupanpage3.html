@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="header"> 
+        <div class="container1">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="redtape.jpg" width="125px" alt="redtape">      
+                 </div>
+               <nav>
+                    <ul>
+                        <li><a href="">Home</a> </li>
+                        <li><a href="">Products</a> </li>
+                        <li><a href="">About</a> </li>
+                        <li><a href="">Account</a> </li>
+                        <li><a href="/Capstone Project/support.html.html">Contact</a> </li>
+                    </ul>
+                </nav>
+                <a href="/payment.html"> <img src="images/cart.jpg"  width="30px" height="30px" alt=""></a>
+                
+            </div>
+             
+        </div>
+        </div>
+<body>
+    <div class="container">
+        <div class="coupan-card">
+            <img src="polo.jpg" class="logo">
+            <h3>30% flat off <br> USING HDFC and SBI Credit cards</h3>
+            <br>
+            <div class="coupan-row">
+                <span id="cpnCode">HARRY123</span>
+                <span id="cpnBtn">COPY CODE</span>
+            </div>
+            <br>
+            <p>Valid Till:30 May,2022</p>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+
+<script>
+    var cpnBtn=document.getElementById("cpnBtn");
+    var cpnCode=document.getElementById("cpnCode");
+    cpnBtn.onclick=function(){
+        navigator.clipboard.writeText(cpnCode.innerHTML);
+    }
+</script>
+</body>
+</html>
+<div class="footer"> 
+    <div class="container1">
+        <div class="navbar">
+            <div class="logo">
+                
+             </div>
+           <nav>
+                <ul>
+                    <li><a href="">Terms & Conditions</a> </li>
+                    <li><a href="">Help</a> </li>
+                    <li><a href="">About Us</a> </li>
+                    <li><a href="">Feedback</a> </li>
+                    <li><a href="">Copyrights reserved</a> </li>
+                </ul>
+            </nav>
+       
+        </div>
+         
+    </div>
+</div>
