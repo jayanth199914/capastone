@@ -1,109 +1,73 @@
- <div class="container-fluid">
-<div class="row">
-<aside class="col-lg-9">
-<div class="card">
-<div class="table-responsive">
-<table class="table table-borderless table-shopping-cart">
-<thead class="text-muted">
-<tr class="small text-uppercase">
-<th scope="col">Product</th>
-<th scope="col" width="120">Quantity</th>
-<th scope="col" width="120">Price</th>
-<th scope="col" class="text-right d-none d-md-block" width="200"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<figure class="itemside align-items-center">
-<div class="aside"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574342017/rTVSl.jpg" class="img-sm"></div>
-<figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Tshirt with round nect</a>
-<p class="text-muted small">SIZE: L <br> Brand: MAXTRA</p>
-</figcaption>
-</figure>
-</td>
-<td> <select class="form-control">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-</select> </td>
-<td>
-<div class="price-wrap"> <var class="price">$10.00</var> <small class="text-muted"> $9.20 each </small> </div>
-</td>
-<td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a href="" class="btn btn-light" data-abc="true"> Remove</a> </td>
-</tr>
-<tr>
-<td>
-<figure class="itemside align-items-center">
-<div class="aside"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574342054/imgrc0078783629.jpg" class="img-sm"></div>
-<figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Flower Formal T-shirt</a>
-<p class="text-muted small">SIZE: L <br> Brand: ADDA </p>
-</figcaption>
-</figure>
-</td>
-<td> <select class="form-control">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-</select> </td>
-<td>
-<div class="price-wrap"> <var class="price">$15</var> <small class="text-muted"> $12 each </small> </div>
-</td>
-<td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a href="" class="btn btn-light btn-round" data-abc="true"> Remove</a> </td>
-</tr>
-<tr>
-<td>
-<figure class="itemside align-items-center">
-<div class="aside"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574342208/ra_unisex_tshirt_x2200_fafafa_ca443f4786_front-c_267_146_1000_1000-bg_f8f8f8.u1.jpg" class="img-sm"></div>
-<figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Printed White Tshirt</a>
-<p class="small text-muted">SIZE:M <br> Brand: Cantabil</p>
-</figcaption>
-</figure>
-</td>
-<td> <select class="form-control">
-<option>1</option>
-<option>2</option>
-<option>3</option>
- </select> </td>
-<td>
-<div class="price-wrap"> <var class="price">$9</var> <small class="text-muted"> $6 each</small> </div>
-</td>
-<td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a href="" class="btn btn-light btn-round" data-abc="true"> Remove</a> </td>
-</tr>
-</tbody>
-</table>
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="header"> 
+        <div class="container1">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="C:\Users\Dell\Pictures\red.jpg" width="125px" alt="redtape">      
+                 </div>
+               <nav>
+                    <ul>
+                        <li><a href="">Home</a> </li>
+                        <li><a href="">Products</a> </li>
+                        <li><a href="">About</a> </li>
+                        <li><a href="">Account</a> </li>
+                        <li><a href="/Capstone Project/support.html.html">Contact</a> </li>
+                    </ul>
+                </nav>
+			<a href="/payment.html"> <img src="C:\Users\Dell\Pictures\cart.png"  width="30px" height="30px" alt=""></a>
+                
+            </div>
+             
+        </div>
+        </div>
+<body>
+    <div class="container">
+        <div class="coupan-card">
+            <img src="C:\Users\Dell\Downloads\polo.jpg" class="logo">
+            <h3>30% flat off <br> HDFC and SBI Credit cards</h3>
+            <br>
+            <div class="coupan-row">
+                <span id="cpnCode">HARRY123</span>
+                <span id="cpnBtn">COPY CODE</span>
+            </div>
+            <br>
+            <p>Valid Till:30 May,2022</p>
+
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+
+<script>
+    var cpnBtn=document.getElementById("cpnBtn");
+    var cpnCode=document.getElementById("cpnCode");
+    cpnBtn.onclick=function(){
+        navigator.clipboard.writeText(cpnCode.innerHTML);
+    }
+</script>
+</body>
+<div class="footer"> 
+    <div class="container1">
+        <div class="navbar">
+            <div class="logo">
+                
+             </div>
+           <nav>
+                <ul>
+                    <li><a href="">Terms & Conditions</a> </li>
+                    <li><a href="">Help</a> </li>
+                    <li><a href="">About Us</a> </li>
+                    <li><a href="">Feedback</a> </li>
+                    <li><a href="">Copyrights reserved</a> </li>
+                </ul>
+            </nav>
+       
+        </div>
+         
+    </div>
 </div>
-</div>
-</aside>
-<aside class="col-lg-3">
-<div class="card mb-3">
-<div class="card-body">
-<form>
-<div class="form-group"> <label>Have coupon?</label>
-<div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Coupon code"> <span class="input-group-append"> <button class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
-</div>
-</form>
-</div>
-</div>
-<div class="card">
-<div class="card-body">
-<dl class="dlist-align">
-<dt>Total price:</dt>
-<dd class="text-right ml-3">$69.97</dd>
-</dl>
-<dl class="dlist-align">
-<dt>Discount:</dt>
-<dd class="text-right text-danger ml-3">- $10.00</dd>
-</dl>
-<dl class="dlist-align">
-<dt>Total:</dt>
-<dd class="text-right text-dark b ml-3"><strong>$59.97</strong></dd>
-</dl>
-<hr> <a href="#" class="btn btn-out btn-primary btn-square btn-main" data-abc="true"> Make Purchase </a> <a href="#" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
-</div>
-</div>
-</aside>
-</div>
-</div> 
+</html>
