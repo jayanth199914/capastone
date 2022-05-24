@@ -5,6 +5,7 @@
       <title>Shopping Cart</title>
       <link rel="stylesheet" type="text/css" href="cart.css">
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+      <script src="cart.js" async></script>
    </head>
    <body>
       <div class="container">
@@ -12,7 +13,7 @@
          <div class="cart">
             <div class="products">
                <div class="product">
-                  <img src="shoes.jpg">
+                  <img src="C:\Users\ashok\OneDrive\Desktop\ECommerce\images\shoes.jpg">
                   <div class="product-info">
                      <h3 class="product-name">Nike Shoes</h3>
                      <h4 class="product-price">$ 100</h4>
@@ -25,7 +26,7 @@
                   </div>
                </div>
                <div class="product">
-                  <img src="watch.jpg">
+                  <img src="C:\Users\ashok\OneDrive\Desktop\ECommerce\images\watch.jpg">
                   <div class="product-info">
                      <h3 class="product-name">Rolex Watch</h3>
                      <h4 class="product-price">$ 1000</h4>
@@ -39,17 +40,23 @@
                </div>
             </div>
             <div class="cart-total">
-            <p>
-               <span>Total Price</span>
-               <span>$ 1100</span>
-            </p>
+            
             <p>
                <span>Number of Items</span>
                <span>2</span>
             </p>
             <p>
+               <div class="coupon">
+                  Apply Coupon<input type="textbox" placeholder="Enter Coupon Code" size="20">
+               </div>
+            </p>
+            <p>
                <span>You Save</span>
                <span>$ 650</span>
+            </p>
+            <p>
+               <span>Total Price</span>
+               <span class="cart-total-price">$ 1100</span>
             </p>
             <a href="#">Proceed to Checkout</a>
          </div>

@@ -68,6 +68,9 @@
 	padding:5px;
 	text-align:center;
 }
+.coupon{
+	display:flex
+}
 .fa{
 	margin-right:5px;
 }
@@ -116,7 +119,7 @@
 	.cart{
 		flex-direction:column;
 	}
-	.cart-total:{
+	.cart-total{
 		margin-left:0;
 		margin-bottom:20px;
 	}
